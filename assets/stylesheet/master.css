@@ -1,0 +1,227 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: capitalize;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/91jRhrfoH7L.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    width: 300px;
+    height: 100vh;
+    
+}
+.hidden{
+    color: #da0037;
+    font-size: 20px;
+    padding:10px ;
+    display: flex;
+    width: 1%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    
+}
+
+.hidden:hover~.menu{
+    display: none;
+}
+.menu{
+    width: 300px;
+    height:100%;
+    padding:0 10px;
+    background-color: #171717;
+}
+.menu>div{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.menu>div>div{
+    width: 47%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #da0037;
+    color: #da0037;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.menu>div>div:first-of-type{
+    width: 100%;
+    background-color: #da0037;
+    color: #ffffff;
+    border: none;
+}
+.menu>div>div>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.menu>div>div:hover>a::after{
+    content: '+';
+    margin: 5px;
+}
+.menu>ul:first-of-type{
+    margin-top:20px;
+}
+.menu>ul:first-of-type>li{
+    height: 45px;
+    border-bottom: 1px solid #ededed73;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: 2s;
+    position: relative;
+}
+.menu>ul:first-of-type>li>a{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #888888;
+    font-size: 0.9rem;
+    transition: 1s;
+}
+.menu>ul:first-of-type>li:hover{
+    border-bottom: 1px solid #da0037;
+}
+.menu>ul:first-of-type>li:hover>a{
+    color: #ffffff;
+}
+.drop_menu{
+    position: absolute;
+    left:calc(100% + 20px) ;
+    top: 0;
+    width: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+   
+}
+.menu>ul:first-of-type>li:hover>.drop_menu{
+    width: 100%;  
+    visibility: visible;
+    opacity: 1;
+}
+.drop_menu>li{
+    width: 100%;
+    height: 35px;
+    color: #999999;
+    font-size: 0.8rem;
+    transition: 1s;
+    background-color: #171717;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.drop_menu>li>a{
+   
+   padding: 10px;
+   border-bottom: 1px solid #202020;
+   font-size: 0;
+   transition: 1s;
+}
+.menu>ul:first-of-type>li:hover>.drop_menu>li>a{
+    width: 100%;
+    font-size: 0.7rem;
+}
+.drop_menu>li:hover{
+    border-left: 2px solid #da0037;
+}
+.drop_menu>li:hover>a{
+    border: none;
+    color: #da0037;
+    
+}
+
+.drop_drop{
+    position: absolute;
+    left:calc(100% + 20px) ;
+    top: 0;
+    width: 0%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    z-index: 5;
+   
+}
+.drop_menu>li:hover>.drop_drop{
+    width: 100%;  
+    visibility: visible;
+    opacity: 1;
+}
+.drop_drop>li{
+    width: 100%;
+    height: 35px;
+    color: #999999;
+    font-size: 0.8rem;
+    transition: 1s;
+    background-color: #171717;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.drop_drop>li>a{
+   display: flex;
+   justify-self: end;
+   padding: 10px;
+   border-bottom: 1px solid #202020;
+   font-size: 0;
+   transition: 1s;
+}
+.drop_menu>li:hover>.drop_drop>li>a{
+    width: 100%;
+    font-size: 0.7rem;
+}
+.drop_drop>li:hover{
+    border-left: 2px solid #da0037;
+}
+.drop_drop>li:hover>a{
+    border: none;
+    color: #da0037;
+    
+}
+
+.menu>ul:last-of-type{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.menu>ul:last-of-type>li>a{
+    color: #555555;
+    font-size: 0.8rem;
+    transition: 0.7s;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu>ul:last-of-type>li>a:hover{
+    color:#da0037;
+    border-bottom: 1px solid #da0037;
+    font-size: 0.85rem;
+}
+
