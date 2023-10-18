@@ -4,7 +4,7 @@
 
 ![sticky (2)](![Screenshot_2023_10_18-1](https://github.com/elnaz-eshtiaghi/mega.menu/assets/146030206/5f6ba968-7204-439b-a03c-c4dff6d850c1)
 
-- [Demo Project](https://elnaz-eshtiaghi.github.io/mega.menu/)
+- [Demo Project](https://elnaz-eshtiaghi.github.io/vertical.meu/)
 
 - Developed by elnaz eshtiaghi
 
