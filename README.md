@@ -2,7 +2,7 @@
 
 **If you have a lot of information to display on your site, why don't you use my project**
 
-![sticky (2)](![Screenshot_2023_10_18-1](https://github.com/elnaz-eshtiaghi/mega.menu/assets/146030206/5f6ba968-7204-439b-a03c-c4dff6d850c1)
+![Screenshot_2023_10_18-2](https://github.com/elnaz-eshtiaghi/vertical.meu/assets/146030206/f69f9138-2d78-4f56-899b-d484a735fe32)
 
 - [Demo Project](https://elnaz-eshtiaghi.github.io/vertical.meu/)
 
