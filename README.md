@@ -4,7 +4,7 @@
 
 ![Screenshot_2023_10_18-2](https://github.com/elnaz-eshtiaghi/vertical.meu/assets/146030206/f69f9138-2d78-4f56-899b-d484a735fe32)
 
-- [Demo Project](https://elnaz-eshtiaghi.github.io/vertical.meu/)
+- [Demo Project](https://elnaz-eshtiaghi.github.io/vertical.menu/)
 
 - Developed by elnaz eshtiaghi
 
